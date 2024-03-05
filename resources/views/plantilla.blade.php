@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Dentista</title>
     <link rel="shortcut icon" href="{{ asset('imagenes/diente.png') }}" type="image/x-icon">
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <!-- Incluye Vite -->
     @vite('resources/css/app.css')
 
