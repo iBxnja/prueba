@@ -20,7 +20,7 @@ Route::get('/inicio', function () {
     return view('inicio');
 });
 Route::get('/inicio/cliente-nuevo', function () {
-    return view('cliente/cliente-nuevo');
+    return view('cliente/cliente-nuevo')->name('cliente');
 });
 
 #---------------------------------------------------------------#
