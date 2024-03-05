@@ -8,6 +8,7 @@
 </head>
 <body>
     Holaaaaaaaaaaaaaaaaaaaaaaaa
-    <a href="{{ route('cliente')}}">Ir a cliente</a>
+    <a href="{{ route('cliente.nuevo') }}">Cliente Nuevo</a>
+
 </body>
 </html>
