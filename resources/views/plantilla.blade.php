@@ -14,7 +14,6 @@
 <body class="flex items-center justify-center flex-col">
     <div class="fixed inset-0 -z-10 h-full w-full bg-white bg-[linear-gradient(to_right,#f0f0f0_1px,transparent_1px),linear-gradient(to_bottom,#f0f0f0_1px,transparent_1px)] bg-[size:6rem_4rem]"></div>    
     
-    @include('header')
     <div class="w-11/12 h-10 flex items-center justify-start mt-3">
         @yield('breadcrumb')
     </div>
@@ -23,6 +22,5 @@
         @yield('contenido')
     </main>
 
-    @include('footer')
 </body>
 </html>
