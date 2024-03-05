@@ -19,7 +19,7 @@ Route::get('/', function () {
 Route::get('/inicio', function () {
     return view('inicio');
 });
-Route::get('inicio/cliente-nuevo', function () {
+Route::get('/inicio/cliente-nuevo', function () {
     return view('cliente/cliente-nuevo');
 });
 
