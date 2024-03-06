@@ -52,13 +52,6 @@ Route::get('inicio/odontograma-nuevo', function () {
     return view('odontograma/odontograma-nuevo');
 });
 
-Route::get('json', function () {
-    return view('json')->name('json');
-});
-Route::get('/', function () {
-    return view('principio');
-});
-
 
 
 
