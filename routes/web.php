@@ -24,8 +24,8 @@ use App\Http\Controllers\ControladorWebInforme;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/inicio', function () {
-    return view('inicio');
+Route::get('/clinica', function () {
+    return view('principio');
 });
 Route::get('/inicio/cliente-nuevo', function () {
     return view('cliente.cliente-nuevo');
